@@ -361,6 +361,11 @@ ul {
     pointer-events: none;
 }
 
+/* Calculator Card Style */
+.calculator-card {
+    padding: 40px;
+}
+
 /* Vault Card Style */
 .vault-card {
     background: linear-gradient(135deg, rgba(39, 39, 42, 0.9), rgba(24, 24, 27, 0.95));
@@ -687,6 +692,10 @@ header.scrolled {
     #calculator .container > div:first-child,
     #collateral .container > div:first-child {
         grid-template-columns: 1fr !important;
+    }
+
+    .calculator-card {
+        padding: 25px 15px !important;
     }
 
     .notice-box {
